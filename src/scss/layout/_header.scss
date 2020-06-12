@@ -1,25 +1,3 @@
-.header {
-  position: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  position: relative;
-  margin:auto;
-  background-image: url('../images/cover.jpg');
-  background-repeat: no-repeat;
-  background-size:100%;
-  height:100vh;
-}
-/* .div-image-header{
-  background-size:100%
-
-} */
-/* .header-image {
-  wid
-  position: relative;
-  height:100vh;
-  margin:auto;
-
-} */
 .burguer-menu {
   width: 44px;
   height: 44px;
@@ -29,35 +7,11 @@
   left: 0;
   text-align: center;
   cursor: pointer;
-}
-.burguer-image {
+ }
+ .burguer-image {
   width: 16px;
   height: 14px;
   margin: auto;
   margin-top: 15px;
-}
-.header-title h1{
-  text-transform: uppercase;
-  /*  color:$color-super-light; */
-  color: red;
-  font-size: 42px;
-  position: absolute;
-  z-index: 999;
-  transform:translate(10%,-160%);
- 
- .header-title p{
-  display: block;
-  text-align:center;
-  position:absolute;
-  z-index: 999;
-  transform:translate(10%,-140%);
-
  }
-
-}
-.header-button {
-  width: 45px;
-  height: 45px;
-  background-color: $color-super-light;
-  position: absolute;
-}
+ 
