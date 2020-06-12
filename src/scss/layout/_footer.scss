@@ -1,1 +1,51 @@
 
+.footer{
+    height:490px;
+    widows: 100%;
+    background-color: $color-primary-dark;
+    display:flex;
+    flex-direction:column;
+    wrap:nowrap;
+}
+.articles-list, .social-list{
+    text-transform:uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    color:$color-super-light;
+    line-height:30px;
+    text-align:center;
+}
+.articles-list{
+    margin-top:37px;
+}
+.social-list{
+    margin-top:30px;
+}
+.copy{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    color:$color-super-light;
+    line-height:30px;
+    text-align:center;  
+    margin-top:30px;
+    
+    .heart-icon{
+        color:$color-elements;
+    }
+    .copy-text{
+        display:block;
+       
+    }
+
+}
+.footer-button{
+    width: 45px;
+    height: 45px;
+    background-color: $color-super-light;
+    border-radius:50%;
+    text-align:center;
+    align-self:center;
+    transform:translate(-0px,-20px)
+    
+    
+}
