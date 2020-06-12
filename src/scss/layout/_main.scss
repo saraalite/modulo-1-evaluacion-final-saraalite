@@ -1,0 +1,33 @@
+.main{
+    height:367px;
+    background-color:$color-super-light;
+    width:100%;
+}
+.insomnia-title, .window-title{
+    text-transform:capitalize;
+}
+.insomnia-title{
+    font-size:14px;
+    font-family: 'Roboto', sans-serif;
+    color: $color-light;
+    font-weight: 400;
+    margin-left:15px;
+    margin-top:30px;
+}
+.window-title{
+    font-family: 'Roboto Slab', serif;
+    font-size:24px;
+    margin-left:15px;
+    margin-bottom:15px;
+    color:$color-dark-font;
+    span{
+        display:block;
+    }
+}
+.main-article-paragraph{
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    color:$color-semi-dark-font;
+    margin-left:15px;
+    margin-right:15px;
+}
