@@ -76,6 +76,14 @@
   margin-top: 30px;
   margin-left: 15px;
   margin-bottom: 45px;
+  cursor:pointer;
+  transition: background-color ease 1s, border-color ease 1s, color ease 1s;
+  &:hover{
+    background-color:$color-primary-light;
+    border-color:$color-primary-dark;
+    color:$color-super-light;
+  }
+
   @media all and (min-width: 768px) {
     width:91px;
     height:45px;

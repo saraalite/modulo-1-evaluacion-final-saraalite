@@ -118,6 +118,15 @@
   margin: auto;
   padding-top: 10px;
   margin-bottom: 60px;
+  cursor:pointer;
+  border:1px solid $color-elements;
+  transition: background-color ease 1s, border-color ease 1s, color ease 1s;
+  &:hover{
+    background-color:$color-super-light;
+    border-color:$color-primary-dark;
+    border-width:2px;
+    color:$color-primary-light;
+  }
   @media all and (min-width: 768px){
     width:210px;
   }
