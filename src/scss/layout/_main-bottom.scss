@@ -1,3 +1,5 @@
+/* GENERAL */
+
 .main-bottom {
   background-color: $color-background-light;
   height: 624px;
@@ -24,8 +26,8 @@
       grid-column: 1/7;
     }
   }
-  @media all and (min-width: 1200px){
-    height:427px;
+  @media all and (min-width: 1200px) {
+    height: 427px;
   }
 }
 .main-bottom-wrapper {
@@ -33,14 +35,15 @@
   padding-left: 68px;
 }
 
+/* ARTICLES */
 
 .article-top {
   @media all and (min-width: 768px) {
     padding-left: 35.7px;
     padding-right: 0px;
   }
-  @media all and (min-width: 1200px){
-    padding-left:81.5px;
+  @media all and (min-width: 1200px) {
+    padding-left: 81.5px;
   }
 }
 
@@ -48,8 +51,8 @@
   @media all and (min-width: 768px) {
     padding-left: 0px;
     padding-right: 40px;
-    @media all and (min-width: 1200px){
-      padding-right:85px;
+    @media all and (min-width: 1200px) {
+      padding-right: 85px;
     }
   }
 }
@@ -105,6 +108,7 @@
   }
 }
 
+/* BUTTON */
 .main-bottom-button {
   background-color: $color-elements;
   width: 184px;
@@ -118,20 +122,19 @@
   margin: auto;
   padding-top: 10px;
   margin-bottom: 60px;
-  cursor:pointer;
-  border:1px solid $color-elements;
+  cursor: pointer;
+  border: 1px solid $color-elements;
   transition: background-color ease 1s, border-color ease 1s, color ease 1s;
-  &:hover{
-    background-color:$color-super-light;
-    border-color:$color-primary-dark;
-    border-width:2px;
-    color:$color-primary-light;
+  &:hover {
+    background-color: $color-super-light;
+    border-color: $color-primary-dark;
+    border-width: 2px;
+    color: $color-primary-light;
   }
-  @media all and (min-width: 768px){
-    width:210px;
+  @media all and (min-width: 768px) {
+    width: 210px;
   }
-  @media all and (min-width: 1200px){
-    width:255px;
+  @media all and (min-width: 1200px) {
+    width: 255px;
   }
 }
-

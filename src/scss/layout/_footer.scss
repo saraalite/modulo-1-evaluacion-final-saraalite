@@ -1,103 +1,114 @@
+/* GENERAL */
 
-.footer{
-    height:490px;
-    widows: 100%;
-    background-color: $color-primary-dark;
-    display:flex;
-    flex-direction:column;
-    wrap:nowrap;
-    align-items:center;
-    @media all and (min-width: 768px){
-        height:240px;
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content: space-between;
-    }
+.footer {
+  height: 490px;
+  widows: 100%;
+  background-color: $color-primary-dark;
+  display: flex;
+  flex-direction: column;
+  wrap: nowrap;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    height: 240px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
-.articles-list, .social-list{
-    text-decoration:none;
-    text-transform:uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size:16px;
-    color:$color-super-light;
-    line-height:30px;
-    text-align:center;
-    .link{
-        text-decoration:none;
-        cursor:pointer;
-    }
-}
-.articles-list{
-    padding-top:15px;
-    @media all and (min-width: 768px){
-        padding-left:0px;
-        padding-right:0px;
-        padding-bottom:45px;
-        padding-top:0px;
-        text-align:left;
-    }
-}
-.social-list{
-    padding-top:30px;
-    @media all and (min-width: 768px){
-        padding-left:0px;
-        padding-right:39px;
-        padding-bottom:105px;
-        padding-top:0px;
-    }
-    @media all and (min-width: 1200px){
-        padding-right:370px;
-    }
-}
-.copy{
-    font-family: 'Roboto', sans-serif;
-    font-size:14px;
-    color:$color-super-light;
-    line-height:30px;
-    text-align:center;
-    padding-top:30px;
-    @media all and (min-width: 768px){
-        order: -1;
-        padding-top:0px;
-        padding-left:39px;
-        padding-right:30px;
-        padding-bottom:142px;
-        text-align:left;
-    }
-    @media all and (min-width: 1200px){
-        padding-left:370px;
-    }
-    
-    .heart-icon{
-        color:$color-elements;
-    }
-    .copy-text{
-        display:block;
-    }
 
+/* ARTICLES */
+
+.articles-list,
+.social-list {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: $color-super-light;
+  line-height: 30px;
+  text-align: center;
+  .link {
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
+.articles-list {
+  padding-top: 15px;
+  @media all and (min-width: 768px) {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 45px;
+    padding-top: 0px;
+    text-align: left;
+  }
+}
+.social-list {
+  padding-top: 30px;
+  @media all and (min-width: 768px) {
+    padding-left: 0px;
+    padding-right: 39px;
+    padding-bottom: 105px;
+    padding-top: 0px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-right: 370px;
+  }
+}
+.copy {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: $color-super-light;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 30px;
+  @media all and (min-width: 768px) {
+    order: -1;
+    padding-top: 0px;
+    padding-left: 39px;
+    padding-right: 30px;
+    padding-bottom: 142px;
+    text-align: left;
+  }
+  @media all and (min-width: 1200px) {
+    padding-left: 370px;
+  }
+
+  .heart-icon {
+    color: $color-elements;
+  }
+  .copy-text {
+    display: block;
+  }
+}
+
+/* BUTTON  */
+
 .button-container {
-    order:-2;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    transform:translate(0px,-22px);
+  order: -2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translate(0px, -22px);
 }
 
-.footer-button{
-    width: 45px;
-    height: 45px;
-    background-color: $color-super-light;
-    border-radius:50%;
-    text-align:center;
-    &:hover{
-        animation: button 1s infinite;
-        @keyframes button {
-        0% { transform: translateY(0px); }
-        50% { transform: translateY(-10px); }
-        }
+.footer-button {
+  width: 45px;
+  height: 45px;
+  background-color: $color-super-light;
+  border-radius: 50%;
+  text-align: center;
+  &:hover {
+    animation: button 1s infinite;
+    @keyframes button {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
     }
+  }
 }
-.ico-arrow{
-    padding-top:10px;
+.ico-arrow {
+  padding-top: 10px;
 }

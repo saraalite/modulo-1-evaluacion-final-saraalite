@@ -1,9 +1,11 @@
+/* GENERAL */
+
 .main {
   height: 367px;
   background-color: $color-super-light;
   width: 100%;
   @media all and (min-width: 768px) {
-    height:330px;
+    height: 330px;
     .tablet-wrapper {
       padding-right: 39px;
       padding-left: 39px;
@@ -11,12 +13,14 @@
   }
 }
 
+/* SECTION */
 
 .insomnia-title,
 .window-title {
   text-transform: capitalize;
-  line-height:30px;
+  line-height: 30px;
 }
+
 .insomnia-title {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -24,12 +28,11 @@
   font-weight: 400;
   padding-left: 15px;
   padding-top: 30px;
-  @media all and (min-width: 1200px){
-    padding-top:60px;
+  @media all and (min-width: 1200px) {
+    padding-top: 60px;
   }
-
-
 }
+
 .window-title {
   font-family: "Roboto Slab", serif;
   font-size: 24px;
@@ -37,32 +40,34 @@
   margin-bottom: 15px;
   color: $color-dark-font;
   @media all and (min-width: 768px) {
-    font-size:26px;
+    font-size: 26px;
   }
   span {
     display: block;
-    @media all and (min-width: 768px){
-      display:inline;
+    @media all and (min-width: 768px) {
+      display: inline;
     }
   }
 }
+
 .main-article-paragraph {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: $color-semi-dark-font;
   margin-left: 15px;
   margin-right: 15px;
-  line-height:30px;
+  line-height: 30px;
   @media all and (min-width: 768px) {
-    font-size:20px;
+    font-size: 20px;
   }
-  @media all and (min-width: 1200px){
-    span{
-      display:block;
+  @media all and (min-width: 1200px) {
+    span {
+      display: block;
     }
   }
-  
 }
+/* BUTTON */
+
 .main-button {
   width: 76px;
   height: 45px;
@@ -76,17 +81,17 @@
   margin-top: 30px;
   margin-left: 15px;
   margin-bottom: 45px;
-  cursor:pointer;
+  cursor: pointer;
   transition: background-color ease 1s, border-color ease 1s, color ease 1s;
-  &:hover{
-    background-color:$color-primary-light;
-    border-color:$color-primary-dark;
-    color:$color-super-light;
+  &:hover {
+    background-color: $color-primary-light;
+    border-color: $color-primary-dark;
+    color: $color-super-light;
   }
 
   @media all and (min-width: 768px) {
-    width:91px;
-    height:45px;
-    font-size:20px;
+    width: 91px;
+    height: 45px;
+    font-size: 20px;
   }
 }

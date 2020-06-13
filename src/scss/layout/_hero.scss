@@ -1,3 +1,5 @@
+/* GENERAL */
+
 .hero {
   height: 100vh;
   background-image: url("../images/cover.jpg");
@@ -11,6 +13,9 @@
   justify-content: flex-end;
   align-content: center;
 }
+
+/* TITLE AND PARAGRAPH*/
+
 .header-title h1 {
   text-transform: uppercase;
   color: $color-super-light;
@@ -20,11 +25,11 @@
   @media all and (min-width: 768px) {
     font-size: 80px;
   }
-  @media all and (min-width: 1200px){
-    font-size:100px;
+  @media all and (min-width: 1200px) {
+    font-size: 100px;
   }
-  span{
-    display:block;
+  span {
+    display: block;
   }
 }
 
@@ -35,9 +40,11 @@
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   @media all and (min-width: 768px) {
-    font-size:24px;
+    font-size: 24px;
   }
 }
+
+/* BUTTON */
 
 .header-button {
   width: 45px;
