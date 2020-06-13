@@ -28,11 +28,29 @@
 .main-bottom-wrapper {
   padding-right: 68px;
   padding-left: 68px;
-  @media all and (min-width: 768px){
-    padding-right: 39px;
-    padding-left: 39px;
-  }
 }
+.article-top{
+    @media all and (min-width: 768px){
+        padding-left:35.7px;
+        padding-right:0px;  
+    }
+
+} 
+.article-bottom{
+    @media all and (min-width: 768px){
+        padding-left:0px;
+        padding-right:40px;  
+    }
+
+}
+.article-center{
+    @media all and (min-width: 768px){
+        padding-left:0px;
+        padding-right:0px;  
+    }
+
+}
+
 .main-bottom-title {
   font-family: "Roboto Slab", serif;
   text-align: center;
