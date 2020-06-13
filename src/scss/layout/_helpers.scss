@@ -1,4 +1,8 @@
 .tablet-wrapper{
     padding-right: 39px;
     padding-left: 39px;
+    @media all and (min-width: 1200px){
+        padding-right:275px;
+        padding-left:275px;
+    }
 }

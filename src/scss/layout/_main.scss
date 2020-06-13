@@ -11,6 +11,7 @@
   }
 }
 
+
 .insomnia-title,
 .window-title {
   text-transform: capitalize;
@@ -23,6 +24,9 @@
   font-weight: 400;
   padding-left: 15px;
   padding-top: 30px;
+  @media all and (min-width: 1200px){
+    padding-top:60px;
+  }
 
 
 }
@@ -37,6 +41,9 @@
   }
   span {
     display: block;
+    @media all and (min-width: 768px){
+      display:inline;
+    }
   }
 }
 .main-article-paragraph {
@@ -49,6 +56,12 @@
   @media all and (min-width: 768px) {
     font-size:20px;
   }
+  @media all and (min-width: 1200px){
+    span{
+      display:block;
+    }
+  }
+  
 }
 .main-button {
   width: 76px;
@@ -66,5 +79,6 @@
   @media all and (min-width: 768px) {
     width:91px;
     height:45px;
+    font-size:20px;
   }
 }
