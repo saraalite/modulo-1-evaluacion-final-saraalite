@@ -90,10 +90,13 @@
     background-color: $color-super-light;
     border-radius:50%;
     text-align:center;
-   
-    /* @media all and (min-width: 768px){
-        transform:translate(20px,-65px);
-    } */
+    &:hover{
+        animation: button 1s infinite;
+        @keyframes button {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        }
+    }
 }
 .ico-arrow{
     padding-top:10px;
