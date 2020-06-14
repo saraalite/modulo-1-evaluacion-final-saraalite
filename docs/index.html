@@ -8,40 +8,39 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <!-- MY STYLESHEET -->
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
     <div class="page">
       <header class="header">
         <div class="burguer-menu">
-          <a href="https://adalab.es/curso-desarrollo-web/" title="Go to Adalab website">
+          <a href="https://adalab.es/curso-desarrollo-web/"
+            title="Go to Adalab website">
             <img class="burguer-image" src="./assets/images/ico-menu.svg" />
           </a>
         </div>
-
       </header>
 
-      <section class="hero">
+      <section class="hero" id="top">
         <div class="header-title">
           <h1>
             <span>anonymous</span>
             <span>proxy</span>
           </h1>
-      </div>
-      <div class="header-paragraph">
+        </div>
+        <div class="header-paragraph">
           <p>
             <span class="title-paragraph">In hac habitasse platea dictumst.</span>
           </p>
-      </div>
+        </div>
         <div class="header-button">
-          <a href="#" title="Go to 3 reasons to purchase">
-              <img class="scroll-down-icon" src="./assets/images/ico-scroll-down.svg" />
-            </a>
+          <a href="./index.html#3-reasons" title="Go to 3 reasons to purchase">
+            <img class="scroll-down-icon" src="./assets/images/ico-scroll-down.svg" />
+          </a>
         </div>
       </section>
 
-      <main class="main">
+      <main class="main tablet-wrapper" id="main-top">
         <article class="main-article">
           <h4 class="insomnia-title">insomnia tips</h4>
           <h2 class="window-title">
@@ -49,18 +48,20 @@
             <span>window</span>
           </h2>
           <p class="main-article-paragraph">
-            Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
-            luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+            <span>Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+              luctus ex
+            </span>
+            <span>diam nec lectus. Vivamus semper sodales rutrum.</span>
           </p>
         </article>
         <div class="main-button">Go</div>
       </main>
 
-      <main class="main-bottom">
+      <main class="main-bottom" id="3-reasons">
         <h2 class="main-bottom-title">3 reasons to purchase</h2>
           <article class="article-top main-bottom-wrapper">
             <h3 class="article-title">Ud sed metus</h3>
-            <p class="article-paragraph"><span>Lorem ipsum dolor sit</span> <span>amet, consecteur.</span></p>
+            <p class="article-paragraph"><span>Lorem ipsum dolor sit</span><span></span> amet, consecteur.</span></p>
           </article>
           <article class="article-center main-bottom-wrapper">
             <h3 class="article-title">Curabitur ac erat</h3>
@@ -70,14 +71,89 @@
             <h3 class="article-title">Morbi dictum</h3>
             <p class="article-paragraph"><span>Aliquam in dolor et</span> <span>dolor tincidunt.</span></p>
           </article>
-          <div class="main-bottom-button main-bottom-wrapper">More reasons</div>
+          <div class="main-bottom-button">More reasons</div>
       </main>
 
-      <footer class="page__footer">
-        FOOTER
-        <small>
-          &copy; Todos los derechos reservados
-        </small>
+      <footer class="footer tablet-wrapper">
+        <div class="button-container">
+          <div class="footer-button">
+            <a href="./index.html#top" title="Go to top">
+              <img class="ico-arrow" src="./assets/images/ico-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <nav class="articles-list">
+          <ul>
+            <a
+              class="link"
+              title="Go to Adalab webpage"
+              href="https://adalab.es/curso-desarrollo-web/"
+            >
+              <li>articles</li></a
+            >
+            <a
+              class="link"
+              title="Go to Adalab webpage"
+              href="https://adalab.es/curso-desarrollo-web/"
+            >
+              <li>books</li></a
+            >
+            <a
+              class="link"
+              title="Go to Adalab webpage"
+              href="https://adalab.es/curso-desarrollo-web/"
+            >
+              <li>events</li></a
+            >
+            <a
+              class="link"
+              title="Go to Adalab webpage"
+              href="https://adalab.es/curso-desarrollo-web/"
+            >
+              <li>reasons</li></a
+            >
+            <a
+              class="link"
+              title="Go to Adalab webpage"
+              href="https://adalab.es/curso-desarrollo-web/"
+            >
+              <li>tips</li></a
+            >
+          </ul>
+        </nav>
+        <nav class="social-list">
+          <ul>
+            <a
+              class="link"
+              title="Go to Adalab webpage"
+              href="https://adalab.es/curso-desarrollo-web/"
+            >
+              <li>twitter</li></a
+            >
+            <a
+              class="link"
+              title="Go to Adalab webpage"
+              href="https://adalab.es/curso-desarrollo-web/"
+            >
+              <li>instagram</li></a
+            >
+            <a
+              class="link"
+              title="Go to Adalab webpage"
+              href="https://adalab.es/curso-desarrollo-web/"
+            >
+              <li>mastodon-social</li></a
+            >
+          </ul>
+        </nav>
+        <div class="copy">
+          <small>
+            <span class="copy-text"> &copy; 2017 </span>
+            <span class="copy-text">
+              we <span class="heart-icon">❤</span> components
+            </span>
+          </small>
+        </div>
       </footer>
 
     </div>
