@@ -1,12 +1,8 @@
 /* GENERAL */
 
 .main {
-  height: 367px;
   background-color: $color-super-light;
   width: 100%;
-  @media all and (min-width: 768px) {
-    height: 330px;
-  }
 }
 
 /* SECTION */

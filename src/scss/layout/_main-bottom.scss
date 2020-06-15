@@ -2,13 +2,11 @@
 
 .main-bottom {
   background-color: $color-background-light;
-  height: 624px;
   width: 100%;
   margin-top: 0px;
   display: grid;
   grid-template-columns: 1fr;
   @media all and (min-width: 768px) {
-    height: 397px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     .main-bottom-title {
       grid-column: 1/7;
@@ -121,6 +119,7 @@
   text-align: center;
   margin: auto;
   padding-top: 10px;
+  margin-top: 45px;
   margin-bottom: 60px;
   cursor: pointer;
   border: 1px solid $color-elements;
@@ -133,6 +132,7 @@
   }
   @media all and (min-width: 768px) {
     width: 210px;
+    margin-top: 60px;
   }
   @media all and (min-width: 1200px) {
     width: 255px;
