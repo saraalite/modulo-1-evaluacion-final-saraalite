@@ -1,11 +1,11 @@
 /* GENERAL */
 
 .footer {
-  widows: 100%;
+  width: 100%;
   background-color: $color-primary-dark;
   display: flex;
   flex-direction: column;
-  wrap: nowrap;
+  flex-wrap: nowrap;
   align-items: center;
   @media all and (min-width: 768px) {
     flex-direction: row;
@@ -44,7 +44,6 @@
   padding-top: 30px;
   @media all and (min-width: 768px) {
     padding-left: 0px;
-    padding-right: 39px;
     padding-bottom: 105px;
     padding-top: 0px;
     text-align: left;
@@ -63,7 +62,6 @@
   @media all and (min-width: 768px) {
     order: -1;
     padding-top: 0px;
-    padding-left: 39px;
     padding-right: 30px;
     padding-bottom: 142px;
     text-align: left;
